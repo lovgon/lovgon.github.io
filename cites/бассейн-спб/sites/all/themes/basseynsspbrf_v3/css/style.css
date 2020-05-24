@@ -1,0 +1,1190 @@
+body,html {
+width:100%;
+height:100%;
+margin:0;
+padding:0;
+font-family: "GothamProRegular";
+color:#838d8f;
+font-size:13px;
+line-height:1.3
+}
+
+tbody {
+border:0
+}
+
+strong {
+	color:#000
+}
+
+a {
+	color:#000;
+	text-decoration:none;
+	border-bottom:1px dashed #000
+}
+
+a:hover {
+	color:#000;
+	text-decoration:none;
+	border-bottom:0
+}
+
+/* font-family: "GothamProRegular"; */
+@font-face {
+    font-family: "GothamProRegular";
+    src: url("../fonts/GothamProRegular/GothamProRegular.eot");
+    src: url("../fonts/GothamProRegular/GothamProRegular-1.eot")format("embedded-opentype"),
+    url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"),
+    url("../fonts/GothamProRegular/GothamProRegular.bin") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "GothamProBold"; */
+@font-face {
+    font-family: "GothamProBold";
+    src: url("../fonts/GothamProBold/GothamProBold.eot");
+    src: url("../fonts/GothamProBold/GothamProBold-1.eot")format("embedded-opentype"),
+    url("../fonts/GothamProBold/GothamProBold.woff") format("woff"),
+    url("../fonts/GothamProBold/GothamProBold.bin") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "GothamProItalic"; */
+@font-face {
+    font-family: "GothamProItalic";
+    src: url("../fonts/GothamProItalic/GothamProItalic.eot");
+    src: url("../fonts/GothamProItalic/GothamProItalic-1.eot")format("embedded-opentype"),
+    url("../fonts/GothamProItalic/GothamProItalic.woff") format("woff"),
+    url("../fonts/GothamProItalic/GothamProItalic.bin") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "GothamProMedium"; */
+@font-face {
+    font-family: "GothamProMedium";
+    src: url("../fonts/GothamProMedium/GothamProMedium.eot");
+    src: url("../fonts/GothamProMedium/GothamProMedium-1.eot")format("embedded-opentype"),
+    url("../fonts/GothamProMedium/GothamProMedium.woff") format("woff"),
+    url("../fonts/GothamProMedium/GothamProMedium.bin") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "GothamProLight"; */
+@font-face {
+    font-family: "GothamProLight";
+    src: url("../fonts/GothamProLight/GothamProLight.eot");
+    src: url("../fonts/GothamProLight/GothamProLight-1.eot")format("embedded-opentype"),
+    url("../fonts/GothamProLight/GothamProLight.woff") format("woff"),
+    url("../fonts/GothamProLight/GothamProLight.bin") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.theme-default .nivoSlider img {
+	width:1280px;
+	height:500px;
+}
+
+.main-wrapper {
+	min-width:1280px;
+	width:100%
+}
+
+.header-wrapper {
+	/*position:fixed;
+	top:0;
+	left:0;*/
+	position:relative;
+	z-index:2;
+	overflow:hidden;
+	width:100%;
+	min-width:1280px;
+	height:100px;
+	background-color:#3c3d41;
+	box-shadow: 10px 5px 20px rgba(0,0,0,0.5);
+}
+
+.header-content {
+	width:1280px;
+	margin:0 auto
+}
+
+.header-logo {
+	cursor:pointer;
+	float:left;
+	width:318px;
+	height:100px;
+	background:url(../images/header-logo-small.png) no-repeat 0 15px
+}
+
+.header-phone {
+	padding:35px 0 0 0;
+	float:left;
+	height:65px;
+	font-family: "GothamProBold";
+	color:#fff;
+	font-size:1.8em
+}
+
+.header-menu {
+	float:right;
+	padding:37px 0 0 0;
+	height:63px;
+}
+
+.header-menu ul {
+	margin:0
+}
+
+.header-menu ul li {
+	margin:0;
+	padding:0 0 0 10px;
+	font-size:1.3em;
+	list-style:none;
+	display:inline-block
+
+}
+
+.header-menu ul li a {
+	text-transform:uppercase;
+	color:#fff;
+	text-decoration:none;
+	border-bottom:1px dashed #fff;
+	font-family: "GothamProBold";
+}
+
+.header-menu ul li a:hover {
+	border-bottom:none;
+}
+
+.slider-wrapper {
+	position:relative;
+	z-index:0;
+	/*margin:100px 0 0 0;*/
+	width:100%;
+	height:500px;
+}
+
+.slider-content {
+	width:1280px;
+	/*overflow:hidden;*/
+	height:500px;
+	margin:0 auto
+}
+
+.footer-wrapper {
+	width:100%;
+	height:160px;
+	background-color:#3c3d41;
+	color:#383737;
+	clear:both
+}
+
+.front .footer-content {
+	width:1280px;
+	padding:20px 0 10px 0;
+	margin:60px auto 0 auto;
+	overflow:hidden
+}
+
+.about-wrapper {
+	width:1280px;
+	margin:60px auto 0 auto;
+	font-size:1.1em
+}
+
+.about-title {
+	font-family: "GothamProBold";
+	font-size:1.4em;
+	color:#919192;
+	text-transform:uppercase;
+}
+
+.about-text {
+	margin:10px 0 0 0
+}
+
+
+.footer-content {
+	width:1280px;
+	height:130px;
+	padding:20px 0 10px 0;
+	margin:0 auto;
+	overflow:hidden
+}
+
+.footer-info {
+	width:200px;
+	float:left;
+	font-family: "GothamProBold";
+	font-size:1.1em;
+	color:#919192
+}
+
+.footer-address {
+	float:left;
+	margin:0 0 0 83px;
+	width:390px;
+	height:160px
+}
+
+.footer-text-center {
+	margin:0 0 0 83px;
+	width:300px;
+	float:left;
+	font-family: "GothamProMedium";
+	font-size:1em
+}
+
+.footer-text-title {
+	text-transform:uppercase;
+	padding:0 0 5px 10px;
+	font-size:1.1em;
+	color:#fff;
+	font-family: "GothamProBold";
+}
+
+.footer-text-title2 {
+	text-transform:uppercase;
+	padding:0 0 5px 10px;
+	margin:10px 0 0 0;
+	font-size:1.1em;
+	color:#fff;
+	font-family: "GothamProBold";
+}
+
+.footer-text-span-1 {
+	padding:0 0 0 20px;
+	font-size:1em;
+	color:#fff;
+	font-family: "GothamProRegular";
+}
+
+.footer-text-span-2 {
+	padding:0 0 0 10px;
+	font-size:1em;
+	color:#fff;
+	font-family: "GothamProRegular";
+}
+
+.footer-text-span-2 a {
+	color:#fff;
+	border-bottom:1px dashed #fff;
+	text-decoration:none
+}
+
+.footer-text-span-2 a:hover {
+	color:#fff;
+	border-bottom:0;
+	text-decoration:none
+}
+
+.footer-social-icons {
+	text-align:right;
+	width:141px;
+	float:right;
+	overflow:hidden
+}
+
+.footer-vk-icon {
+	float:left;
+	width:63px;
+	height:63px;
+	background:url(../images/vk_footer_icon.png) 0 -63px no-repeat
+}
+
+.footer-vk-icon:hover {
+	float:left;
+	width:63px;
+	height:63px;
+	background:url(../images/vk_footer_icon.png) 0 0 no-repeat
+}
+
+.footer-twitter-icon {
+	margin:0 0 0 15px;
+	float:left;
+	width:63px;
+	height:63px;
+	background:url(../images/twitter_footer_icon.png) 0 -63px no-repeat
+}
+
+.footer-twitter-icon:hover {
+	margin:0 0 0 15px;
+	float:left;
+	width:63px;
+	height:63px;
+	background:url(../images/twitter_footer_icon.png) 0 0 no-repeat
+}
+
+.service-information-wrapper {
+	/*margin:80px 0 0 0*/
+}
+
+.content-wrapper {
+	/*margin:120px 0 0 0;*/
+	width:100%
+}
+
+.content-data {
+	margin:0 auto;
+	width:980px;
+}
+
+.full-node-title {
+	font-family: "GothamProMedium";
+	font-size:1.3em;
+	text-transform:uppercase;
+	color:#404040
+}
+
+.field-name-field-date.field-label-hidden .field-item {
+
+	font-size:1.2em;
+	font-family: "GothamProBold";
+	color:#838d8f
+}
+
+.field-name-body.field-label-hidden {
+	padding:15px 0 10px 0;
+}
+
+.view-notice.view-display-id-page .views-row {
+	border-bottom:1px dashed #000
+}
+
+.view-notice.view-display-id-page .views-row-last {
+	border-bottom:0
+}
+
+.liniimusc {
+	color:#000;
+	border-collapse: collapse
+}
+
+.liniimusc td {
+	padding:3px
+}	
+
+.liniishrift {
+	margin:0 0 15px 0;
+	border:solid 1px #000;
+	text-align:center;
+}
+
+.liniishrift a {
+	border:0
+}
+
+.bluecolor {
+	background-color:#c5d9f1
+}
+
+.greencolor {
+	background-color:#d8e4bc
+}
+
+.orangecolor {
+	background-color:#fcd5b4
+}
+
+.redcolor {
+	background-color:#e6b8b7
+}
+
+.blue2color {
+	background-color:#b7dee8
+}
+
+.yellowcolor {
+	background-color:#f6f7c1
+}
+
+.red2color {
+	background-color:#f0d0d0
+}
+
+.red3color {
+	background-color:#fde9d9
+}
+
+.textgir {
+	font-weight:bold
+}
+
+.bodymini {
+	font-size:12px
+}
+
+ol {
+	margin:2px 0 0 0
+}
+
+.otstup {
+	padding:1px 1px 1px 10px
+}
+
+
+/*CALENDAR SHEDULE START*/
+
+.page-shedule .service-information-wrapper {
+	width:980px;
+	margin:20px auto 0 auto
+}
+
+.view.view-calendar-shedule {
+	margin:0 0 20px 0
+}
+
+.view.view-calendar-shedule.view-display-id-page .pager .date-prev,
+.view.view-calendar-shedule.view-display-id-page_1 .pager .date-prev,
+.view.view-calendar-shedule.view-display-id-page_2 .pager .date-prev,
+.view.view-calendar-shedule.view-display-id-page_3 .pager .date-prev {
+	padding:5px 25px 5px 0;
+	right:95px
+}
+
+.calendar-calendar .month-view .full td.single-day div.monthview, .calendar-calendar .week-view .full td.single-day div.weekview, .calendar-calendar .day-view .full td.single-day div.dayview {
+	background:inherit
+}
+
+/*LESSONS COLOR*/
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-item.type-1 {
+	background-color:#017ebe
+}
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-item.yoga {
+	background-color:#ff8a19
+}
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-item.cardio {
+	background-color:#49ee75
+}
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-item.pilates {
+	background-color:#33b4dc
+}
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-item.swimming-pool {
+	background-color:#018730
+}
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-item.no-type-lesson {
+	background-color:#c8c8c8
+}
+/*LESSONS COLOR*/
+
+
+
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-item {
+	padding:10px 0 10px 5px
+}
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-title,
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-time {
+	color:#fff
+}
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-title {
+	font-family: "GothamProBold";
+	font-size:1.1em
+}
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-time {
+	margin:5px 0 0 0
+}
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-instructor {
+	margin:15px 0 0 0
+}
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-instructor a {
+	color:#fff;
+	border-bottom:1px dashed #fff
+}
+
+.calendar-calendar .inner div.item .views-field.views-field-php .shedule-instructor a:hover {
+	color:#fff;
+	text-decoration:none;
+	border-bottom:0
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .views-exposed-form select,
+.view.view-calendar-shedule.view-display-id-page_2 .views-exposed-form select {
+	height:30px;
+	font-size:1.2em
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .views-exposed-form option,
+.view.view-calendar-shedule.view-display-id-page_2 .views-exposed-form option{
+	font-size:1.1em
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .views-exposed-form select#edit-field-ticket-type-value,
+.view.view-calendar-shedule.view-display-id-page_2 .views-exposed-form select#edit-field-ticket-type-value {
+	width:210px
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .views-exposed-form select#edit-field-type-of-lesson-tid,
+.view.view-calendar-shedule.view-display-id-page_2 .views-exposed-form select#edit-field-type-of-lesson-tid {
+	width:180px
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .views-exposed-form select#edit-field-taxonomy-lessons-tid,
+.view.view-calendar-shedule.view-display-id-page_2 .views-exposed-form select#edit-field-taxonomy-lessons-tid {
+	width:200px
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .views-exposed-form select#edit-field-instructor-nid,
+.view.view-calendar-shedule.view-display-id-page_2 .views-exposed-form select#edit-field-instructor-nid {
+	width:220px
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .views-exposed-form label,
+.view.view-calendar-shedule.view-display-id-page_2 .views-exposed-form label {
+	font-family: "GothamProMedium";
+	font-weight:normal;
+	color:#000;
+	font-size:1.2em
+}
+
+/*CALENDAR SHEDULE END*/
+
+.instructor-page-wrapper {
+	overflow:hidden;
+	margin:20px 0
+}
+
+.instructor-page-left-col,
+.instructor-page-right-col {
+	float:left
+}
+
+.instructor-page-left-col {
+	width:300px
+}
+
+.instructor-page-right-col {
+	padding:0 0 0 15px;
+	width:665px
+}
+
+.instructor-info-table {
+	
+}
+
+.instructor-info-table td {
+	vertical-align:top
+}
+
+.instructor-name {
+	font-family: "GothamProBold";
+	text-transform:uppercase;
+	font-size:1.3em;
+	color:#000;
+	padding:0 0 20px 0
+}
+
+.instructor-label {
+	font-family: "GothamProBold";
+	text-transform:uppercase;
+	color:#000;
+	padding:0 10px 15px 0
+}
+
+.instructor-text {
+	padding:0 0 15px 0
+}
+
+.contacts-page-address {
+	font-family: "GothamProBold";
+	margin:0 0 15px 0
+}
+
+.contacts-page-phone {
+	font-family: "GothamProBold";
+	margin:0 0 15px 0
+}
+
+.contacts-page-phone span {
+	text-transform:uppercase;
+	color:#017ebe;
+	padding:0 5px 0 0
+}
+
+.contacts-page-phone span.phone,
+.contacts-page-phone span.admin {
+	color:#838d8f
+}
+
+.rent {
+	width:100%;
+	margin:10px 0 0 0;
+	text-align:center;
+	color:#000;
+}
+
+.rent-1-item a {
+	border:0
+}
+
+.rent td {
+	border:1px solid #000
+}
+
+.rent-align-center {
+	text-align:center
+}
+
+.rent td {
+	padding:6px 2px
+}
+
+.rent-1-item {
+	width:500px
+}
+
+.rent-2-item {
+	width:500px
+}
+
+.rent-3-item {
+	width:120px
+}
+
+.rent-4-item {
+	width:250px
+}
+
+.price-page-table-name {
+	text-transform:uppercase;
+	font-size:1.5em;
+	margin:15px 0
+}
+
+.lessons-description-shedule-page-title {
+	text-transform:uppercase;
+	color:#000;
+	font-size:2em;
+	margin:40px 0 15px 0
+}
+
+.view.view-calendar-shedule.view-display-id-attachment_1 .view-content h3 {
+	text-transform:uppercase;
+	color:#000;
+	font-size:1.3em;
+	font-family: "GothamProRegular";
+}
+
+.view.view-calendar-shedule.view-display-id-attachment_1 .view-content .views-field.views-field-title {
+	color:#000;
+	font-size:1em;
+	font-family: "GothamProRegular";
+}
+
+.view.view-calendar-shedule.view-display-id-attachment_1 .view-content .views-row.views-row-last {
+	margin:0 0 30px 0;
+	border-bottom:1px dashed #000
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .view-content .views-field-php .shedule-item.type-1,
+.view.view-calendar-shedule.view-display-id-page_2 .view-content .views-field-php .shedule-item.type-1 {
+	background-color:#017ebe
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .view-content .views-field-php .shedule-item.type-2,
+.view.view-calendar-shedule.view-display-id-page_2 .view-content .views-field-php .shedule-item.type-2 {
+	background-color:#018730
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .view-content .views-field-php .shedule-item.type-3,
+.view.view-calendar-shedule.view-display-id-page_2 .view-content .views-field-php .shedule-item.type-3 {
+	background-color:#e63c00
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .view-content .views-field-php .shedule-item.type-4,
+.view.view-calendar-shedule.view-display-id-page_2 .view-content .views-field-php .shedule-item.type-4 {
+	background-color:#926eae
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .view-content .views-field-php .shedule-item.no-type-lesson,
+.view.view-calendar-shedule.view-display-id-page_2 .view-content .views-field-php .shedule-item.no-type-lesson {
+	background-color:#c8c8c8
+}
+
+.view.view-calendar-shedule.view-display-id-attachment_1 .view-content .lesson-descriptions-item.type-1 span {
+	display:inline-block;
+	margin:0 10px 0 0;
+	width:40px;
+	background-color:#017ebe
+}
+
+.view.view-calendar-shedule.view-display-id-attachment_1 .view-content .lesson-descriptions-item.type-2 span {
+	display:inline-block;
+	margin:0 10px 0 0;
+	width:40px;
+	background-color:#018730
+}
+
+.view.view-calendar-shedule.view-display-id-attachment_1 .view-content .lesson-descriptions-item.type-3 span {
+	display:inline-block;
+	margin:0 10px 0 0;
+	width:40px;
+	background-color:#e63c00
+}
+
+.view.view-calendar-shedule.view-display-id-attachment_1 .view-content .lesson-descriptions-item.type-4 span {
+	display:inline-block;
+	margin:0 10px 0 0;
+	width:40px;
+	background-color:#926eae
+}
+
+.view.view-calendar-shedule.view-display-id-attachment_1 .view-content .lesson-descriptions-item.no-type-lesson span {
+	display:inline-block;
+	margin:0;
+	display:none
+}
+
+.view.view-calendar-shedule.view-display-id-page_2 .view-content .calendar-calendar td.calendar-agenda-hour .calendar-hour {
+	font-weight:normal;
+	font-size:1.1em;
+}
+
+.view.view-calendar-shedule.view-display-id-page_2 .view-content .calendar-calendar td.calendar-agenda-hour {
+	text-align:center;
+	height:40px
+}
+
+.view.view-calendar-shedule.view-display-id-page_2 .view-content .calendar-calendar table.full {
+	border:2px solid #eee
+}
+
+.view.view-calendar-shedule.view-display-id-page_1 .calendar-calendar .month-view .full td, 
+.view.view-calendar-shedule.view-display-id-page_2 .calendar-calendar .week-view .full td {
+	padding:0
+}
+
+.bottom-slider {
+	width:1280px;
+	margin:15px auto 0 auto;
+	padding:15px 0;
+	background-color:#eee
+}
+
+
+.lSSlideOuter {
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+.lightSlider:before, .lightSlider:after {
+    content: " ";
+    display: table;
+}
+.lightSlider {
+    overflow: hidden;
+    margin: 0;
+}
+.lSSlideWrapper {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.lSSlideWrapper > .lightSlider:after {
+    clear: both;
+}
+.lSSlideWrapper .lSSlide {
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    -webkit-transition: all 1s;
+    -webkit-transition-property: -webkit-transform,height;
+    -moz-transition-property: -moz-transform,height;
+    transition-property: transform,height;
+    -webkit-transition-duration: inherit !important;
+    transition-duration: inherit !important;
+    -webkit-transition-timing-function: inherit !important;
+    transition-timing-function: inherit !important;
+}
+.lSSlideWrapper .lSFade {
+    position: relative;
+}
+.lSSlideWrapper .lSFade > * {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    margin-right: 0;
+    width: 100%;
+}
+.lSSlideWrapper.usingCss .lSFade > * {
+    opacity: 0;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transition-duration: inherit !important;
+    transition-duration: inherit !important;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+    -webkit-transition-timing-function: inherit !important;
+    transition-timing-function: inherit !important;
+}
+.lSSlideWrapper .lSFade > *.active {
+    z-index: 10;
+}
+.lSSlideWrapper.usingCss .lSFade > *.active {
+    opacity: 1;
+}
+/** /!!! End of core css Should not edit !!!/**/
+
+/* Pager */
+.lSSlideOuter .lSPager.lSpg {
+    margin: 10px 0 0;
+    padding: 0;
+    text-align: center;
+}
+.lSSlideOuter .lSPager.lSpg > li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 5px;
+}
+.lSSlideOuter .lSPager.lSpg > li a {
+    background-color: #222222;
+    border-radius: 30px;
+    display: inline-block;
+    height: 8px;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 8px;
+    position: relative;
+    z-index: 99;
+    -webkit-transition: all 0.5s linear 0s;
+    transition: all 0.5s linear 0s;
+}
+.lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
+    background-color: #428bca;
+}
+.lSSlideOuter .media {
+    opacity: 0.8;
+}
+.lSSlideOuter .media.active {
+    opacity: 1;
+}
+/* End of pager */
+
+/** Gallery */
+.lSSlideOuter .lSPager.lSGallery {
+    list-style: none outside none;
+    padding-left: 0;
+    margin: 0;
+    overflow: hidden;
+    transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate3d(0px, 0px, 0px);
+    -ms-transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -o-transform: translate3d(0px, 0px, 0px);
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.lSSlideOuter .lSPager.lSGallery li {
+    overflow: hidden;
+    -webkit-transition: border-radius 0.12s linear 0s 0.35s linear 0s;
+    transition: border-radius 0.12s linear 0s 0.35s linear 0s;
+}
+.lSSlideOuter .lSPager.lSGallery li.active, .lSSlideOuter .lSPager.lSGallery li:hover {
+    border-radius: 5px;
+}
+.lSSlideOuter .lSPager.lSGallery img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.lSSlideOuter .lSPager.lSGallery:before, .lSSlideOuter .lSPager.lSGallery:after {
+    content: " ";
+    display: table;
+}
+.lSSlideOuter .lSPager.lSGallery:after {
+    clear: both;
+}
+/* End of Gallery*/
+
+/* slider actions */
+.lSAction > a {
+    width: 32px;
+    display: block;
+    top: 50%;
+    height: 32px;
+    background-image: url('../images/controls.png');
+    cursor: pointer;
+    position: absolute;
+    z-index: 99;
+    margin-top: -16px;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.35s linear 0s;
+    transition: opacity 0.35s linear 0s;
+}
+.lSAction > a:hover {
+    opacity: 1;
+}
+.lSAction > .lSPrev {
+    background-position: 0 0;
+    left: 10px;
+}
+.lSAction > .lSNext {
+    background-position: -32px 0;
+    right: 10px;
+}
+.lSAction > a.disabled {
+    pointer-events: none;
+}
+.cS-hidden {
+    height: 1px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    overflow: hidden;
+}
+
+
+/* vertical */
+.lSSlideOuter.vertical {
+    position: relative;
+}
+.lSSlideOuter.vertical.noPager {
+    padding-right: 0px !important;
+}
+.lSSlideOuter.vertical .lSGallery {
+    position: absolute !important;
+    right: 0;
+    top: 0;
+}
+.lSSlideOuter.vertical .lightSlider > * {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+/* vertical controlls */
+.lSSlideOuter.vertical .lSAction > a {
+    left: 50%;
+    margin-left: -14px;
+    margin-top: 0;
+}
+.lSSlideOuter.vertical .lSAction > .lSNext {
+    background-position: 31px -31px;
+    bottom: 10px;
+    top: auto;
+}
+.lSSlideOuter.vertical .lSAction > .lSPrev {
+    background-position: 0 -31px;
+    bottom: auto;
+    top: 10px;
+}
+/* vertical */
+
+
+/* Rtl */
+.lSSlideOuter.lSrtl {
+    direction: rtl;
+}
+.lSSlideOuter .lightSlider, .lSSlideOuter .lSPager {
+    padding-left: 0;
+    list-style: none outside none;
+}
+.lSSlideOuter.lSrtl .lightSlider, .lSSlideOuter.lSrtl .lSPager {
+    padding-right: 0;
+}
+.lSSlideOuter .lightSlider > *,  .lSSlideOuter .lSGallery li {
+    float: left;
+}
+.lSSlideOuter.lSrtl .lightSlider > *,  .lSSlideOuter.lSrtl .lSGallery li {
+    float: right !important;
+}
+/* Rtl */
+
+@-webkit-keyframes rightEnd {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: -15px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+@keyframes rightEnd {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: -15px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+@-webkit-keyframes topEnd {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -15px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+@keyframes topEnd {
+    0% {
+        top: 0;
+    }
+
+    50% {
+        top: -15px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+@-webkit-keyframes leftEnd {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 15px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+@keyframes leftEnd {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 15px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+@-webkit-keyframes bottomEnd {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: -15px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+@keyframes bottomEnd {
+    0% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: -15px;
+    }
+
+    100% {
+        bottom: 0;
+    }
+}
+.lSSlideOuter .rightEnd {
+    -webkit-animation: rightEnd 0.3s;
+    animation: rightEnd 0.3s;
+    position: relative;
+}
+.lSSlideOuter .leftEnd {
+    -webkit-animation: leftEnd 0.3s;
+    animation: leftEnd 0.3s;
+    position: relative;
+}
+.lSSlideOuter.vertical .rightEnd {
+    -webkit-animation: topEnd 0.3s;
+    animation: topEnd 0.3s;
+    position: relative;
+}
+.lSSlideOuter.vertical .leftEnd {
+    -webkit-animation: bottomEnd 0.3s;
+    animation: bottomEnd 0.3s;
+    position: relative;
+}
+.lSSlideOuter.lSrtl .rightEnd {
+    -webkit-animation: leftEnd 0.3s;
+    animation: leftEnd 0.3s;
+    position: relative;
+}
+.lSSlideOuter.lSrtl .leftEnd {
+    -webkit-animation: rightEnd 0.3s;
+    animation: rightEnd 0.3s;
+    position: relative;
+}
+/*/  GRab cursor */
+.lightSlider.lsGrab > * {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: -o-grab;
+  cursor: -ms-grab;
+  cursor: grab;
+}
+.lightSlider.lsGrabbing > * {
+  cursor: move;
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  cursor: -o-grabbing;
+  cursor: -ms-grabbing;
+  cursor: grabbing;
+}
+
+.information-page-button {
+	cursor:pointer;
+	text-transform:uppercase;
+	border:0;
+	padding:10px;
+	margin:10px;
+	font-size:20px;
+	font-family: "GothamProBold";
+	background-color:#017ebe;
+	color:#fff
+}
+
+.information-page-button.active {
+	background-color:#ff8a19
+}
+
+.double-table td {
+	text-align:center;
+	height:30px;
+	text-transform:uppercase;
+	padding:0 5px
+}
+
+.video-youtube-wrapper {
+	width:1280px;
+	margin:0 auto
+}
