@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Comfortaa; /* Гарнитура шрифта */
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf); /* Путь к файлу со шрифтом */
+}
+
 * {
     font-family: Comfortaa, serif;
 }
