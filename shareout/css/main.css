@@ -1,0 +1,38 @@
+* {
+    font-family: Comfortaa;
+}
+
+a {
+    color: #006868;
+}
+
+.list-group-item.active {
+    background-color: #006868;
+    border-color: #006868;
+}
+
+.btn-dark {
+    background-color: #006868;
+    border-color: #006868
+}
+
+.btn-dark:hover {
+    background-color: #008585;
+    border-color: #008585
+}
+
+.btn-danger {
+    background-color: #AD0000;
+    border-color: #AD0000
+}
+
+.btn-danger:hover {
+    background-color: #DD0000;
+    border-color: #DD0000
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1.6rem;
+}
